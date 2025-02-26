@@ -1,13 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
-    server: {
-        port: 5173, // ou un autre port si besoin
-    },
-    build: {
-        outDir: 'dist', // Répertoire de sortie après build
-    }
-})
+  plugins: [react()],
+  base: './', // 🔥 Important pour éviter les erreurs de chemin sur Vercel
+  build: {
+    outDir: 'dist', 
+    assetsDir: 'assets'
+  }
+});
