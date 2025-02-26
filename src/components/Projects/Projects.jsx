@@ -17,6 +17,14 @@ function Project() {
             });
     }, []);
     
+    useEffect(() => {
+        if (isModalOpen) {
+            document.body.classList.add('modal-open');
+        } else {
+            document.body.classList.remove('modal-open');
+        }
+    }, [isModalOpen]);
+
     const openModal = (id) => {
         setIsModalOpen(true);
         setModalContent(data[(id - 1)])
