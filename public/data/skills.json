@@ -1,0 +1,40 @@
+[
+    {
+      "category": "Langages",
+      "skills": [
+        { "name": "HTML5", "icon": "fa-brands fa-html5" },
+        { "name": "CSS3", "icon": "fa-brands fa-css3-alt" },
+        { "name": "JavaScript", "icon": "fa-brands fa-js" },
+        { "name": "SQL", "icon": "fa-solid fa-database" }
+      ]
+    },
+    {
+      "category": "Frameworks & Bibliothèques",
+      "skills": [
+        { "name": "React", "icon": "fa-brands fa-react" },
+        { "name": "Express", "icon": "fa-brands fa-node-js" }
+      ]
+    },
+    {
+      "category": "Bases de données",
+      "skills": [
+        { "name": "MongoDB", "icon": "fa-solid fa-database" },
+        { "name": "MySQL", "icon": "fa-solid fa-database" }
+      ]
+    },
+    {
+      "category": "Outils",
+      "skills": [
+        { "name": "GitHub", "icon": "fa-brands fa-github" },
+        { "name": "Git", "icon": "fa-brands fa-git" }
+      ]
+    },
+    {
+      "category": "Connaissances",
+      "skills": [
+        { "name": "SEO", "icon": "fas fa-search" },
+        { "name": "Accessibilité", "icon": "fas fa-universal-access" },
+        { "name": "Responsive Design", "icon": "fas fa-mobile-alt" }
+      ]
+    }
+  ]

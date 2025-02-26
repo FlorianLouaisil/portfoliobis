@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/Logo_CookNCo.png",
+      "alt": "Logo CookNCo",
+      "title": "Cook'n'Co",
+      "summary": "Un site permettant de recenser des recettes de cuisine avec informations détaillées : ingrédients, préparation, et temps de cuisson.",
+      "modal": {
+        "title": "Cook'N'Co",
+        "image": "/Images/Logo_CookNCo.png",
+        "alt": "Logo CookNCo",
+        "githubLink": "https://github.com/FlorianLouaisil/API_Recettes.git",
+        "description": "Cook'NCO est une application web permettant de recenser des recettes de cuisine. Chaque recette contient des informations détaillées telles que le temps de préparation, la liste des ingrédients avec leurs quantités et les étapes de préparation. L’objectif est d’offrir une interface intuitive et pratique pour les passionnés de cuisine.",
+        "issue": "Dans la première version du frontend, toutes les recettes étaient chargées simultanément, ce qui pouvait entraîner des problèmes de performance à mesure que leur nombre augmentait. La récupération des données a été optimisée en adaptant le mécanisme de chargement des recettes, afin d'éviter une surcharge et d'améliorer ainsi les performances de l'application.",
+        "skills": [
+          "Gestion des composants React",
+          "Optimisation des appels API et gestion des états de chargement et d'erreur"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "image": "/assets/ImageApi.png",
+      "alt": "Schéma API Cook'n'Co",
+      "title": "API Cook'n'Co",
+      "summary": "Une API permettant de gérer des recettes de cuisine liée au site Cook'NCO.",
+      "modal": {
+        "title": "API Cook'n'Co",
+        "image": "/Images/ImageApi.png",
+        "alt": "Schéma de l'API Cook'NCO",
+        "githubLink": "https://github.com/FlorianLouaisil/AppRecette.git",
+        "description": "API développée avec Express pour gérer les recettes de l’application Cook'NCO. Elle permet la gestion des données liées aux recettes (ajout, modification, suppression), ainsi que l’interaction avec une base de données MySQL pour stocker les informations sur les recettes, les ingrédients et leur préparation.",
+        "issue": "Au départ, j’ai utilisé MongoDB pour la gestion des données. Cependant, après réflexion, j'ai constaté que ce choix n’était pas optimal pour ce projet en raison de la structure relationnelle des données (recettes, ingrédients, etc.). J'ai donc décidé de passer à MySQL afin de mieux gérer les relations entre les données et d’améliorer les performances des requêtes.",
+        "skills": [
+          "Développement d’une API REST avec Express",
+          "Gestion et sécurisation des données",
+          "Optimisation des requêtes SQL"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "image": "/assets/seo.webp",
+      "alt": "Optimisation SEO",
+      "title": "Optimisation SEO et Débogage",
+      "summary": "Optimisation du site d’une photographe pour améliorer sa vitesse de chargement et son référencement SEO, en ajustant les images, la structure du code, et l'accessibilité.",
+      "modal": {
+        "title": "Optimisation SEO et Débogage",
+        "image": "/Images/seo.webp",
+        "alt": "Optimisation SEO",
+        "githubLink": "https://github.com/FlorianLouaisil/Openclassroom_P4.git",
+        "description": "Dans le cadre de ma formation, j’ai été chargé d’optimiser le site d’une photographe pour améliorer sa visibilité sur les moteurs de recherche (SEO) et réduire les temps de chargement. Cela a impliqué l’optimisation des images (réduction de leur taille sans perte de qualité), ainsi que la réorganisation et l’optimisation du code pour favoriser une meilleure expérience utilisateur et un meilleur référencement. J’ai aussi amélioré l'accessibilité en ajoutant des balises sémantiques au code.",
+        "issue": "Le site de la photographe était relativement lent à charger, principalement à cause des images trop lourdes et d’une structure de code non optimisée pour le référencement. J’ai donc réalisé un audit complet du site, en utilisant des outils comme Lighthouse pour mesurer les performances et Wave pour l’accessibilité. Puis, j’ai mis en œuvre des solutions pour optimiser les images, ajouter des balises sémantiques et améliorer la structure du code afin d’optimiser la vitesse de chargement et d'améliorer le référencement du site.",
+        "skills": [
+          "Optimisation du temps de chargement",
+          "Amélioration du référencement SEO",
+          "Amélioration de l'accessibilité",
+          "Utilisation d’outils d’audit tels que Lighthouse et Wave"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "image": "/assets/plannification.jpg",
+      "alt": "Planification du développement d'un site",
+      "title": "Planification du développement d'un site",
+      "summary": "Planification du développement d’un site web pour restaurateurs permettant de créer et mettre en page leurs menus, dans le cadre de ma formation.",
+      "modal": {
+        "title": "Planification du développement d'un site",
+        "image": "/Images/plannification.jpg",
+        "alt": "Planification",
+        "description": "Dans le cadre de ma formation, j’ai planifié le développement d’un site web permettant aux restaurateurs de créer et mettre en page leurs menus. J’ai rédigé un document de spécifications techniques, créé un tableau Kanban pour suivre les tâches, et organisé une veille technologique pour rester à jour avec les dernières pratiques.",
+        "issue": "La difficulté principale était de bien organiser le projet en tenant compte des besoins du client, des contraintes techniques et des ressources disponibles. Il a fallu suivre efficacement les tâches des équipes front-end et back-end tout en intégrant les technologies pertinentes.",
+        "skills": [
+          "Création de wireframes et de maquettes",
+          "Rédaction de spécifications techniques",
+          "Gestion de projet avec un tableau Kanban",
+          "Veille technologique pour suivre les meilleures pratiques"
+        ]
+      }
+    }
+  ]
+  
