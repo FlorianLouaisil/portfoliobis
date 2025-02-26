@@ -28,7 +28,7 @@
         text-align: center;
 
         h3 {
-            font-size: 1.8em;
+            font-size: 1.6em;
             color: #34495e;
             margin-bottom: 15px;
             text-transform: uppercase;
@@ -49,29 +49,27 @@
 }
 
 @media (max-width: 768px) {
-    .skills-card h3 {
-        font-size: 1.6em;
-    }
-
-    .skills h2 {
-        font-size: 1.8em;
-    }
-
-    .skills-card ul {
-        text-align: center;
+    .skills {
+        h2 {
+            font-size: 1.8em;
+        }
+        .skills-card ul {
+            text-align: center;
+        }
     }
 }
 
 @media (max-width: 480px) {
-    .skills h2 {
-        font-size: 1.6em;
-    }
+    .skills {
+        h2 {
+            font-size: 1.6em;
+        }
 
-    .skills-card h3 {
-        font-size: 1.4em;
-    }
-
-    .skills-card li {
-        font-size: 1em;
+        .skills-card h3 {
+            font-size: 1.4em;
+        }
+        .skills-card li {
+            font-size: 1em;
+        }
     }
 }

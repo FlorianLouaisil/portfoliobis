@@ -130,15 +130,19 @@ footer {
 }
 
 @media (max-width: 480px) {
-    header h1 {
-        font-size: 2.2em;
+
+    header {
+        h1 {
+            font-size: 2.5em;
+        }
+        nav a {
+            font-size: 1em;
+            margin: 0 10px;
+            text-decoration: none;
+        }
     }
 
-    nav a {
-        font-size: 1em;
-        margin: 0 10px;
-        text-decoration: none;
-    }
+
 
     .contact-form input,
     .contact-form textarea {
